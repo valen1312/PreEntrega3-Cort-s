@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Raleway&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/fondo.jpg);
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    
+}
+
+nav {
+    padding: 0.5rem;
+    width: auto;
+    height: 100px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.logo img {
+    padding: 8px;
+    width: 80px;
+    margin-left: 15px;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul li {
+    display: block;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li:hover ul {
+    display: block;
+    background-color: rgb(79, 87, 163);
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 64px;
+}
