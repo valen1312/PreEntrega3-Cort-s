@@ -78,3 +78,8 @@ nav {
 .menu ul li:hover ul {
   display: block;
   background-color: #4f57a3; }
+
+.mb-3 {
+  margin: 25px;
+  padding: 30px;
+  font-size: 20px; }
